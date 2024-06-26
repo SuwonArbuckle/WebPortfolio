@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Futura', 'Sandoll Gothic';
+            background-color: black;
+        }
+        .title {
+            text-align: center;
+            font-size: 20pt;
+            font-family: 'Futura', 'Sandoll Gothic';
+            font-weight: bold;
+            color: rgb(0, 76, 255);
+            padding: 100px;
+            margin: 90px;
+        }
+        .btns {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        h1 {
+            color: rgb(0, 76, 255);
+        }
+        h2 {
+            color: rgb(198, 198, 198);
+        }
+        h3 {
+            color: rgb(198, 198, 198);
+        }
+        .image {
+            float: right;
+            margin-right: 100px;
+            border-radius: 30px;
+            opacity: 0;
+            transform: translateX(100px);
+            transition: opacity 1.5s, transform 1.5s;
+        }
+        .image.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .text {
+            overflow: hidden;
+            margin-left: 40px;
+        }
+        .btns_menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .btn {
+            background-color: white;
+            border: none;
+            color: rgb(0, 76, 255);
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: 'Futura';
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background-color: rgb(0, 76, 255);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="btns">
+        <div class="container">
+            <div class="btns_menu">
+                <button class="btn intro">INTRO</button>
+                <button class="btn typography">TYPOGRAPHY</button>
+                <button class="btn poster">POSTER</button>
+                <button class="btn package">PACKAGE</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="main" class="title">
+        <h1>GRAPHIC DESIGN PORTFOLIO</h1>
+        <h3>BY</h3>
+        <h1>Jae-Hyeong Lim</h1>
+        <h3>임 재 형</h3>
+        <h3>林 宰 亨</h3>
+    </div>
+    
+    <div id="intro" class="title">
+        <h1>INTRO</h1>
+    </div>
+    <div class="container">
+        <img src="IMG_5186.jpg" alt="Example Image" class="image" width="300">
+        <h3>
+            저는 시각디자인을 전공으로 배우고 있는 지망생으로, 그래픽, 브랜드, 편집 디자인이<br>
+            저의 진로입니다. 현재 다양한 레터링 습작들을 인스타그램 계정에 업로드하고 있으며,<br>
+            이 웹사이트는 지금까지 만든 작품들을 모아놓은 아카이브 겸 포트폴리오입니다.<br>
+            추후에 서체 디자인 또한 시작할 예정이니 많은 관심 바랍니다.<br>
+        </h3>
+        <h2>@tg_by_ljh</h2>
+    </div>
+
+    <div id="typography" class="title">
+        <h1>TYPOGRAPHY</h1>
+    </div>
+    <div class="container">
+        <img src="Unlikelyfriendposter.jpg" alt="Example Image" class="image" width="150">
+        <div class="text">
+            <h1>Beginning</h1>
+            <h2>친구 아닌 친구</h2>
+            <h3>힙합 아티스트 기리보이의 곡 <친구 아닌 친구>의 가사를 레터링한 첫 작품입니다.<br>
+                곡의 전체적인 주제인 짝사랑과 추억을 키워드로 디자인을 해보았으나,<br>
+                첫 단추를 잘못 끼운 채로 제작을 한지라 아쉬움이 많이 남는 작품입니다.
+            </h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="grenadeinstafirst.jpg" alt="Example Image" class="image" width="200">
+        <div class="text">
+            <h1>Title</h1>
+            <h2>그레네이드</h2>
+            <h3>브루노 마스의 대표곡 <Grenade>의 제목을 한글로 레터링해 보았습니다.<br>
+                곡의 주제인 연인에 대한 배신감을 전체적으로 표현하였는데, 개인적으로도<br>
+                그러한 느낌이 디자인에 잘 녹아들었다고 생각이 듭니다.
+            </h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="BravoConeInstaFirst.jpg" alt="Example Image" class="image" width="200">
+        <div class="text">
+            <h1>Copy</h1>
+            <h2>열두시에 만나요</h2>
+            <h3>광고카피를 레터링하는 과제를 받았을 때 어떤 걸로 할까라는 고민이 있었습니다.<br>
+                그러던 중 유명 아이스크림 브랜드 '부라보콘' CM송의 가사를 선정했습니다.<br>
+                이 노래가 1980년 출시 후 처음 광고할 때부터 포크송으로 불렸다는 것을 알고<br>
+                레트로한 감성으로 제작하기로 결정하였습니다.
+            </h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="PatagoniaInstaFirst.jpg" alt="Example Image" class="image" width="200">
+        <div class="text">
+            <h1>Brand</h1>
+            <h2>파타고니아</h2>
+            <h3>이 작품은 기존의 영문 로고를 한글화하는 과정이었기 때문에 어렵지 않았습니다.
+            </h3>
+        </div>
+    </div>
+
+    <div id="poster" class="title">
+        <h1>POSTER</h1>
+    </div>
+    <div class="container">
+        <img src="AhngrpahicsPoster1.jpg" alt="Example Image" class="image" width="200">
+        <div class="text">
+            <h1>Ahngraphics</h1>
+            <h2>안그라픽스</h2>
+            <h3>내년에 다가올 2025년, 안그라픽스 설립 40주년을 기념하여 디자인한 포스터입니다.<br>
+                안그라픽스 설립자이자 해당 서체 디자이너의 이름을 따온 <안상수체>가 주인공이며,<br>
+                "소리"를 메인 키워드로 삼아 한국의 미와 이어지는 세대를 표현하고자 했습니다.
+            </h3>
+        </div>
+    </div>
+
+    <div id="package" class="title">
+        <h1>PACKAGE</h1>
+    </div>
+    <div class="container">
+        <img src="CoffeePackage.jpg" alt="Example Image" class="image" width="300">
+        <div class="text">
+            <h1>Coffee</h1>
+            <h2>커피</h2>
+            <h3>커피의 생산지로 여행을 한다는 컨셉의 디자인이며,<br>
+                그 생산지에 서식하는 대표적인 동물(콘도르, 투칸)을<br>
+                캐릭터 형식으로 일러스트화하였습니다.
+            </h3>
+        </div>
+    </div>
+    <div class="container">
+        <img src="ChocolatePackage.jpg" alt="Example Image" class="image" width="400">
+        <div class="text">
+            <h1>Chocolate</h1>
+            <h2>초콜릿</h2>
+            <h3>승리의 순간처럼 달콤하게, 악마의 유혹처럼 씁쓸하게
+            </h3>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const buttons = document.querySelectorAll('.btns_menu .btn');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const targetId = button.textContent.toLowerCase();
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({behavior: "smooth", block: "start"});
+                    }
+                });
+            });
+
+            const images = document.querySelectorAll('.image');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            images.forEach(image => {
+                observer.observe(image);
+            });
+        });
+    </script>
+</body>
+</html>
+
